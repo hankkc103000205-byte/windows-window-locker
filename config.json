@@ -1,0 +1,26 @@
+{
+  "app_name": "Windows 11 Window Locker",
+  "version": "1.0.0",
+  "author": "hankkc103000205-byte",
+  "description": "A tool to lock Windows 11 window position and size to prevent accidental dragging and resizing",
+  "settings": {
+    "monitoring_interval_ms": 100,
+    "auto_start_monitoring": true,
+    "remember_locked_windows": false,
+    "max_locked_windows": 50,
+    "gui_theme": "default",
+    "auto_check_updates": true
+  },
+  "shortcuts": {
+    "lock_current_window": "Ctrl+Shift+L",
+    "unlock_current_window": "Ctrl+Shift+U",
+    "show_app": "Ctrl+Alt+W"
+  },
+  "features": {
+    "lock_position": true,
+    "lock_size": true,
+    "monitor_windows": true,
+    "gui_interface": true,
+    "cli_interface": true
+  }
+}
